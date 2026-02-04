@@ -15,7 +15,8 @@ Website portofolio interaktif dengan tema RPG Fantasy yang terinspirasi dari Fin
 - **React 18** - Library UI modern
 - **Vite** - Build tool super cepat
 - **Lucide React** - Icon library yang elegant
-- **Lottie** - Animasi library yang super keren
+- **Lottie React** - Animasi library yang super keren
+- **Typewriter Effect** - Library typing text
 - **CSS Custom Properties** - Theming yang fleksibel
 
 ## 📦 Instalasi
