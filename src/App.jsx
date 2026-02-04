@@ -381,7 +381,7 @@ function App() {
             }}
             onInit={(typewriter) => {
               typewriter
-                .typeString("More still process to Deployment...")
+                .typeString("Next Project Deployment in Progress...")
                 .start(); // Start typing and then... do nothing else!
             }}
           />
