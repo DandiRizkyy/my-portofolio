@@ -132,7 +132,7 @@ function App() {
           style={{ width: "105px", height: "105px" }} // manually set here because lottie image size is not same
         />
       ),
-      name: "AIWO International",
+      name: "AIWO International Indonesia",
       skills: ["Wordpress", "Elementor", "ACF"],
       link: "aiwoindonesia.com",
       description: "",
