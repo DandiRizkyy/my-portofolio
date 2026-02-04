@@ -290,6 +290,7 @@ body {
   background-clip: text;
   letter-spacing: 4px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .title-sub {
@@ -460,6 +461,7 @@ body {
   display: flex;
   gap: 2.5rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-link {

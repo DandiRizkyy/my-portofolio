@@ -160,13 +160,6 @@ function App() {
       link: "revo-library.netlify.app",
       description: "",
     },
-    {
-      badge: <Lottie animationData={paperPlane} loop={true} autoplay={true} />,
-      name: "Aviero Company Profile",
-      skills: ["HTML", "CSS"],
-      link: "aviero-company-profile.netlify.app",
-      description: "",
-    },
   ];
 
   const handleCrystalClick = () => {
@@ -376,6 +369,23 @@ function App() {
             );
           })}
         </div>
+        <h3
+          className="section-title"
+          style={{ textAlign: "center", marginTop: "10px" }}
+        >
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: false,
+              cursor: "|",
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("More still process to Deployment...")
+                .start(); // Start typing and then... do nothing else!
+            }}
+          />
+        </h3>
       </section>
 
       {/* Contact Section */}
