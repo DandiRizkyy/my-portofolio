@@ -254,12 +254,11 @@ function App() {
         <h1 className="hero-title">
           Welcome,
           <span className="hero-title-sub">
-            {/* I Craft Digital Realms{" "} */}
             <Typewriter
               options={{
                 strings: [
                   "Traveler",
-                  "Guests",
+                  "Guest",
                   "Sir?",
                   "I Craft Digital Realms",
                 ],
