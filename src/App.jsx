@@ -32,6 +32,8 @@ import {
   Hammer,
   RefreshCcwDot,
   Container,
+  RouterIcon,
+  GitCommit,
 } from "lucide-react";
 
 function App() {
@@ -99,8 +101,14 @@ function App() {
     },
     {
       name: "Version Control",
-      skillIcon: <RefreshCcwDot className="section-icon" />,
+      skillIcon: <GitCommit className="section-icon" />,
       skills: ["Git", "Github"],
+      description: "",
+    },
+    {
+      name: "State Management",
+      skillIcon: <RefreshCcwDot className="section-icon" />,
+      skills: ["Redux", "Zustand"],
       description: "",
     },
     {
