@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Lottie from "lottie-react";
-import paperPlane from "./assets/PaperPlane.json";
+import nekoGojo from "./assets/NekoGojoSatoru.json";
 import lovelyMeow from "./assets/LovelyMeow.json";
 import books from "./assets/Books.json";
 import onlinePayment from "./assets/OnlinePayment.json";
@@ -152,6 +152,20 @@ function App() {
       name: "BPR Artatama",
       skills: ["Wordpress", "Elementor", "ACF"],
       link: "bprartatama.com",
+      description: "",
+    },
+    {
+      badge: <Lottie animationData={nekoGojo} loop={true} autoplay={true} />,
+      name: "Anime Dee Bee",
+      skills: [
+        "React",
+        "Vite",
+        "Shadcn",
+        "TailwindCSS",
+        "Zustand",
+        "Lucide React",
+      ],
+      link: "anime-dee-bee.netlify.app",
       description: "",
     },
     {
