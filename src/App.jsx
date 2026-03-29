@@ -5,6 +5,7 @@ import lovelyMeow from "./assets/LovelyMeow.json";
 import books from "./assets/Books.json";
 import onlinePayment from "./assets/OnlinePayment.json";
 import industry from "./assets/Industry.json";
+import cart from "./assets/CartItemsAdded.json";
 import Typewriter from "typewriter-effect";
 import {
   Sword,
@@ -131,6 +132,13 @@ function App() {
     },
   ];
   const portofolioList = [
+    {
+      badge: <Lottie animationData={cart} loop={true} autoplay={true} />,
+      name: "Arumnashwa",
+      skills: ["Vite", "React", "Supabase"],
+      link: "arumnashwa.com",
+      description: "",
+    },
     {
       badge: (
         <Lottie
