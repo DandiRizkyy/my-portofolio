@@ -269,8 +269,8 @@ function App() {
             <span>CREATOR</span>
           </div>
           <div className="hero-badge">
-            <Gamepad2 size={16} />
-            <span>GAMER</span>
+            <CircleDollarSign size={16} />
+            <span>DIGITAL MARKETER</span>
           </div>
         </div>
 
